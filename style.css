@@ -1,0 +1,38 @@
+body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .hero {
+      min-height: 90vh;
+      display: flex;
+      align-items: center;
+      background-color: #f8f9fa;
+    }
+
+    .section-title {
+      margin-bottom: 40px;
+    }
+
+    .page-title {
+      background-color: #4572b6;
+      color: white;
+      padding: 60px 0;
+    }
+
+    .info-card {
+      border: 1px solid #e0e0e0;
+      padding: 20px;
+      border-radius: 8px;
+      background-color: #fff;
+    }
+
+    .service-card {
+      transition: transform 0.3s ease;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .error {
+      color: red;
+      font-size: 14px;
+    }
